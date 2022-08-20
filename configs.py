@@ -20,7 +20,7 @@ class Config(object):
 	OWNER_ID = int(os.environ.get("OWNER_ID", 784985038))
 	CAPTION = "By @AHToolsBot"
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VidCompressXbot")
-	DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://yhpplpjogqxmjk:a515a30f5af7c17e292843bef584b9dd5c705de26cc3ee18c2f6c77add81e6ac@ec2-34-242-8-97.eu-west-1.compute.amazonaws.com:5432/d3v9f6kjbo4j9u")
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://root:aaaaaaac@anibot.m2eh1.mongodb.net/?retryWrites=true&w=majority")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", True))
 	USAGE_WATERMARK_ADDER = """
